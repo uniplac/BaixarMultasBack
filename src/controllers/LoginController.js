@@ -1,6 +1,6 @@
 const conectanobanco = require("../funcoes/database");
 
-const usuarios = [ {"name":"NIU","login":"niu", "password":"GST!_#n!u*wks01", "key":"978546132", "keyTime":"798546123"},  {"name":"Grazi","login":"grazi", "password":"uniplac2022", "key":"978546132","keyTime":"798546123"}];
+const usuarios = [ {"name":"NIU","login":"niu", "password":"GST!_#n!u*wks01", "key":"978546132", "keyTime":"798546123"},  {"name":"Grazi","login":"graziele.cardoso", "password":"uniplac2022", "key":"978546132","keyTime":"798546123"}];
 
 module.exports = {
 
