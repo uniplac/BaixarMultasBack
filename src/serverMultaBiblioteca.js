@@ -36,11 +36,7 @@ const httpsServer = https.createServer({
 }, app);
 
 httpsServer.listen(4448, () => {
-	console.log('HTTPS Server running on port 4444');
+	console.log('HTTPS Server running on port 4448');
 });
  
-/* app.listen(4444, () => {
-	console.log('HTTPS Server running on port 4444');
-});
- */
 module.exports = app;
