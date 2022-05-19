@@ -20,7 +20,7 @@ module.exports = {
             }
         })
         console.log("login error")
-        return res.status(401).json({"entry":0})
+        return res.json({"entry":0})
     },
 
     session(req, res){
