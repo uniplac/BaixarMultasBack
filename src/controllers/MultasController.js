@@ -14,7 +14,7 @@ async buscaMultas(req, res){
     flag_transporte 
 from exporta_multa 
 join pessoa on pessoa.cod_pessoa = exporta_multa.cod_pessoa
-where flag_transporte = 'T' order by pessoa.nome_pessoa;`, 
+where flag_transporte in ('T', 'N', 'M') order by pessoa.nome_pessoa;`, 
     {type: conectanobanco.QueryTypes.SELECT});
 
     return res.status(200).json({RETORNO})
